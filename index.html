@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+</head>
+<body>
+    <h1>Web Scraper</h1>
+    <form action="/cgi-bin/scraper.py" method="GET">
+        <label for="website_url">Enter Website URL:</label><br>
+        <input type="text" id="website_url" name="website_url" required><br><br>
+        <label for="site_name">Enter Folder Name:</label><br>
+        <input type="text" id="site_name" name="site_name" required><br><br>
+        <input type="submit" value="Start Scraping">
+    </form>
+    <br>
+    <div id="result"></div>
+</body>
+</html>
