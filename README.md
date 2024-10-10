@@ -1,4 +1,4 @@
-# Web Scraper
+# Web Scraper (core-python)
 
 This project is a simple web scraper that downloads HTML pages and associated resources (CSS, JavaScript, images, etc.) into organized directories.
  It is implemented in Python and uses the Beautiful Soup library for parsing HTML.
